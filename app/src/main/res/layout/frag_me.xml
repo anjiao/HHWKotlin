@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:id="@+id/rl_usercenter_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:gravity="center_vertical"
+                android:paddingBottom="15dip"
+                android:paddingLeft="14dip"
+                android:paddingRight="20dip"
+                android:paddingTop="15dip">
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="58dp"
+                    android:layout_height="58dp"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/user_1" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="19dip"
+                    android:layout_toRightOf="@id/profile_image"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="美宝莲-吉米"
+                        android:textColor="@color/txt_1_black"
+                        android:textSize="17dip"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_user_hint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dip"
+                        android:text="美宝莲广州造型店 - 总监"
+                        android:textColor="@color/txt_4_gray"
+                        android:textSize="13dip"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/arrow_right_yf" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="99"
+                        android:textColor="@color/txt_1_black"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="关注"
+                        android:textColor="#9A9DA0"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="200"
+                        android:textColor="@color/txt_1_black"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="粉丝"
+                        android:textColor="#9A9DA0"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20"
+                        android:textColor="@color/txt_1_black"
+                        android:textSize="16dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="动态"
+                        android:textColor="#9A9DA0"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/style_txt_item_title_me_menu"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@mipmap/me_icon_cunfang"
+                android:text="造型室" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="20dp"
+                    android:background="#F7F7F7"
+                    android:orientation="vertical" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/style_txt_item_title_me_menu"
+                android:drawableLeft="@mipmap/me_icon_huanbi"
+                android:text="个人作品" />
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="20dp"
+                    android:background="#F7F7F7"
+                    android:orientation="vertical" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/style_txt_item_title_me_menu"
+                android:drawableLeft="@mipmap/me_yuyue"
+                android:text="我的预约" />
+
+
+            <TextView
+                style="@style/style_txt_item_title_me_menu"
+                android:layout_marginTop="8dp"
+                android:drawableLeft="@mipmap/me_icon_about"
+                android:text="消息通知" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="20dp"
+                    android:background="#F7F7F7"
+                    android:orientation="vertical" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/style_txt_item_title_me_menu"
+                android:drawableLeft="@mipmap/me_icon_store"
+                android:text="我的收藏" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="20dp"
+                    android:background="#F7F7F7"
+                    android:orientation="vertical" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/style_txt_item_title_me_menu"
+                android:drawableLeft="@mipmap/me_car_icon"
+                android:text="购物车" />
+
+
+            <TextView
+                style="@style/style_txt_item_title_me_menu"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@mipmap/me_icon_setting"
+                android:text="设置" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:layout_marginLeft="20dp"
+                    android:background="#F7F7F7"
+                    android:orientation="vertical" />
+            </FrameLayout>
+
+            <TextView
+                style="@style/style_txt_item_title_me_menu"
+                android:drawableLeft="@mipmap/me_icon_store"
+                android:text="意见反馈" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:background="#F7F7F7"
+                android:orientation="vertical" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="splash_theme" parent="AppTheme">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="iosLikeProgressStyle" parent="android:Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/ios_like_progress_bar_circle</item>
+        <item name="android:indeterminateDuration">1440</item>
+    </style>
+
+    <style name="style_line_bg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/line_item_divider</item>
+    </style>
+
+    <style name="style_txt_item_title_me_menu">
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/txt_1_black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:drawablePadding">15dp</item>
+        <item name="android:drawableRight">@mipmap/arrow_right_yf</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+
+
+</resources>

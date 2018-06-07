@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorGray">#CCCCCC</color>
+
+
+    <!--普遍色-->
+    <color name="white">#FFFFFF</color>
+    <color name="white_single">#FFFFFF</color>
+    <color name="red">#E71117</color>
+    <color name="topbar_background">#263147</color>
+    <color name="black_pure">#000000</color>
+    <color name="black_login_input">#6e6e6e</color>
+    <color name="transparent">#00000000</color>
+    <color name="slt_item_pressed">#E9EAED</color>
+
+    <color name="txt_9_black">#10131B</color>
+    <color name="line_item_divider">#80D3D6DB</color>
+    <color name="main_bg">#EFEFEF</color>
+    <color name="main_green">#4688F0</color>
+    <color name="green">#4688F0</color>
+    <color name="yellow">#FCCF40</color>
+    <color name="txt_4_gray">#8C9098</color>
+    <color name="review_gray">#DCDEE3</color>
+    <color name="deeper_color">#9197A3</color>
+    <color name="item_click_background">#D9D9D9</color>
+    <color name="green_theme_main_deep_gray_bg">#EFEFEF</color>
+
+    <color name="assist_3_gray">#ADB2BB</color>
+    <color name="assist_4_gray">#8C9098</color>
+    <color name="assist_5_white">#EFEFEF</color>
+    <color name="assist_6_gray">#BABBC1</color>
+    <color name="assist_7_white">#F9F9F9</color>
+    <color name="txt_1_green">#09BA07</color>
+
+
+    <color name="dialog_div_line">#dcdee3</color>
+    <color name="live_userinfo_gray_color">#8c9098</color>
+    <color name="gray_more">#8c9098</color>
+    <color name="gray_login">#6c7172</color>
+    <color name="green_theme_text_gray_deeper_color">#9197A3</color>
+
+    <color name="gray_time_normal">#B2B2B2</color>
+    <color name="gray_time_first">#555555</color>
+    <color name="tel_color">#fed02a</color>
+
+    <color name="home_index_gray_unsel">#CCCCCC</color>
+    <color name="home_index_gray_sel">@color/white</color>
+
+    <color name="bg_gray_1">#EDEDED</color>
+    <color name="txt_3_light_gray">#ADB2BB</color>
+
+    <color name="map_box_item_name">#030303</color>
+    <color name="map_box_item_guige">#757577</color>
+    <color name="tv_header_right_enable_color_51">#4E5665</color>
+    <color name="gray_tv_new">#B0B0B0</color>
+
+    <color name="login_hint_color">#b9babe</color>
+    <color name="block_task_status_gray">#bbbbbb</color>
+
+    <color name="black">#000000</color>
+    <color name="main_bottom_bg">#FDFDFD</color>
+    <color name="main_bottom_divider">#B2B2B2</color>
+    <color name="bottom_black">#4F5054</color>
+
+    <color name="txt_1_black">#10131B</color>
+    <color name="like_gray_text">#C5C5C5</color>
+
+
+</resources>
